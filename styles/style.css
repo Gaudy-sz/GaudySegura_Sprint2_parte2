@@ -310,11 +310,19 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-basis: auto;
 }
 
 .step {
-  /* Agrega estilos */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 220px;
 }
 
 .step__title {
