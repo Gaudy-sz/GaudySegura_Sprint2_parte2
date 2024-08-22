@@ -388,7 +388,7 @@
   display: flex;
   margin: auto;
   align-items: center;
-  column-gap: 20px 16px;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
