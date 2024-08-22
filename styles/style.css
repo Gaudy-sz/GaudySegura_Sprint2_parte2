@@ -323,7 +323,7 @@
   flex-direction: column;
   justify-content: center;
   max-width: 220px;
-  flex-basis: 40px;
+  flex-basis: content;
 }
 
 .step__title {
