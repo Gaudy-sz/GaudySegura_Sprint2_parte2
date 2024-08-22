@@ -323,7 +323,7 @@
   flex-direction: column;
   justify-content: center;
   max-width: 220px;
-  flex-basis: auto;
+  flex-basis: 80px;
 }
 
 .step__title {
@@ -345,15 +345,13 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  color: #ffffff;
-  background-color: #1f1f1f;
 }
 
 .footer__column_content_hours {
@@ -389,6 +387,8 @@
   text-decoration: none;
   display: flex;
   margin: auto;
+  align-items: center;
+  column-gap: 20px 16px;
 }
 
 .footer__social-icon {
@@ -397,7 +397,5 @@
 }
 
 .footer__copyright {
-  background-color: #000000;
-  color: #ffffff;
   margin-top: 100px;
 }
